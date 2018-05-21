@@ -1,0 +1,50 @@
+1. Control Structures
+    1. Tasks/Subroutines
+        1. task taskname()\{\ body\}\\
+        2. startTask(taskname);\
+        3. void subname(arguments)\{\ body\}\\
+    2. Variable Definitions
+        1. bool name;\
+        2. int name;\
+        3. long name;\
+        4. float name;\
+        5. typedef enum\{\ enum1,\ enum2\} enumTypeName;
+        6. #define macro() definition\
+        7. #undef macro\
+        8. #include "filename"\
+    3. if Statements
+        1. if(condition) statement;\
+        2. if(condition)\ statement;\
+        3. if(condition)\ statement;\else\statement;\
+        4. if(condition)\{\body\}\
+        5. if(condition)\{\body\}\else\{\body\}\
+    4. Control Structures
+        1. for (initial; condition; increment)\{\body\}\
+        2. while (condition)\{\body\}\
+        3. do\{\body}\while (condition)\
+        4. switch (var)\{\case num:\ body\ break;\\default\ body\}\
+    5. Natural Language
+        1. waitUntil(condition);
+        2. repeat(forever)\{\ body\}\
+        3. repeat(numberOfTimes)\{\body\}\
+        4. repeatUntil(condition)\{\body\}\
+    6. EV3 LED
+        1. EV3 LED
+            1. setLEDColor(LEDpatterns);
+    7. Motors
+        1. Commands
+            1. getMotorEncoder(nMotorIndex);
+    8. Natural Language
+        1. Simple Behaviors
+            1. backward(quantity,unitType,speed);
+            2. forward(quantity,unitType,speed);
+            3. moveMotor(motorPort,quantity,unitType,speed);
+            4. turnLeft(quantity,unitType,speed);
+            5. turnRight(quantity,unitType,speed);
+        2. Motor Commands
+            1. resetMotorEncoder(nMotorIndex);
+            2. setMotor(motorPort,speed);
+            3. setMultipleMotors(speed, firstMotor, secondMotor, thirdMotor, fourthMotor);
+            4. stopAllMotors();
+            5. stopMotor(motorPort);
+            6. stopMultipleMotors( firstMotor, secondMotor, thirdMotor, fourthMotor);
