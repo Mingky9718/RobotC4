@@ -28,23 +28,23 @@
         2. repeat(forever)\{\ body\}\
         3. repeat(numberOfTimes)\{\body\}\
         4. repeatUntil(condition)\{\body\}\
-    6. EV3 LED
-        1. EV3 LED
-            1. setLEDColor(LEDpatterns);
-    7. Motors
-        1. Commands
-            1. getMotorEncoder(nMotorIndex);
-    8. Natural Language
-        1. Simple Behaviors
-            1. backward(quantity,unitType,speed);
-            2. forward(quantity,unitType,speed);
-            3. moveMotor(motorPort,quantity,unitType,speed);
-            4. turnLeft(quantity,unitType,speed);
-            5. turnRight(quantity,unitType,speed);
-        2. Motor Commands
-            1. resetMotorEncoder(nMotorIndex);
-            2. setMotor(motorPort,speed);
-            3. setMultipleMotors(speed, firstMotor, secondMotor, thirdMotor, fourthMotor);
-            4. stopAllMotors();
-            5. stopMotor(motorPort);
-            6. stopMultipleMotors( firstMotor, secondMotor, thirdMotor, fourthMotor);
+2. EV3 LED
+    1. EV3 LED
+        1. setLEDColor(LEDpatterns);
+3. Motors
+    1. Commands
+        1. getMotorEncoder(nMotorIndex);
+4. Natural Language
+    1. Simple Behaviors
+        1. backward(quantity,unitType,speed);
+        2. forward(quantity,unitType,speed);
+        3. moveMotor(motorPort,quantity,unitType,speed);
+        4. turnLeft(quantity,unitType,speed);
+        5. turnRight(quantity,unitType,speed);
+    2. Motor Commands
+        1. resetMotorEncoder(nMotorIndex);
+        2. setMotor(motorPort,speed);
+        3. setMultipleMotors(speed, firstMotor, secondMotor, thirdMotor, fourthMotor);
+        4. stopAllMotors();
+        5. stopMotor(motorPort);
+        6. stopMultipleMotors( firstMotor, secondMotor, thirdMotor, fourthMotor);
