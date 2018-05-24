@@ -48,3 +48,53 @@
         4. stopAllMotors();
         5. stopMotor(motorPort);
         6. stopMultipleMotors( firstMotor, secondMotor, thirdMotor, fourthMotor);
+    3. Remote Control
+        1. arcadeControl(verticalJoystick,horizontalJoystick,thrshold);
+        2. armControl(armMotorPort,upButton,downButton,armSpeed);
+        3. setJoystickScale(nScaledPercentage);
+        4. tankControl(rightHoystick,leftJoystick,threshold);
+    4. Timing
+        1. getTimer(currentTimer,unitType);
+        2. resetTimer(currentTimer);
+        3. wait(quantity,unitType);
+    5. Line Tracking
+        1. lineTrackLeft(sensorName,threshold,speedPrimary,speedSecondary);
+        2. lineTrackRight(sensorName,threshold,speedPrimary,speedSecondary);
+    6. Datalog
+        1. datalogClear();
+        2. datalogRate(quantity,unitType);
+        3. datalogStart(quantity,unitType);
+        4. datalogStop();
+    7. Display
+        1. displayMotorValues(lineNumber,nDeviceIndex);
+        2. displaySensorValues(lineNumber,nDeviceIndex);
+        3. displayText(lineNumber,sString);
+        4. displayVariableValues(lineNumber,value);
+5. Sonsors
+    1. Variables
+        1. SensorValue[]
+    2. Color Sensor
+        1. getColorAmbient(nDeviceIndex);
+        2. getColorHue(nDeviceIndex);
+        3. getColorName(nDeviceIndex);
+        4. getColorReflected(nDeviceIndex);
+        5. getColorRGB(nDeviceIndex,pRedChannel,pGreenChannel,pBlueChannel);
+        6. getColorSaturation(nDeviceIndex);
+    3. Gyro Sensor
+        1. getGyroDegrees(nDeviceIndex);
+        2. getGyroHeading(nDeviceIndex);
+        3. getGyroRate(nDeviceIndex);
+        4. resetGyro(nDeviceIndex);
+    4. Touch Sensor
+        1. 
+    5. Ultrasonic Sensor
+        1. 
+    6. Infrared Sensor
+        1. 
+6. Sound
+    1. Sounds
+7. Timing
+    1. Commands
+        1. clearTimer(theTimer);
+        2. sleep(nMsec);
+    2. Variables
